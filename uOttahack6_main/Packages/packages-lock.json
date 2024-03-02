@@ -1,5 +1,12 @@
 {
   "dependencies": {
+    "com.github-glitchenzo.nugetforunity": {
+      "version": "https://github.com/GlitchEnzo/NuGetForUnity.git?path=/src/NuGetForUnity",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "75f68222d0a4bd2b468dbf3e6a17a191d28041ab"
+    },
     "com.meta.xr.mrutilitykit": {
       "version": "62.0.0",
       "depth": 1,
@@ -453,6 +460,13 @@
         "com.unity.xr.legacyinputhelpers": "2.1.7"
       },
       "url": "https://packages.unity.com"
+    },
+    "de.sungaila.pdftoimage": {
+      "version": "https://github.com/sungaila/PDFtoImage.git?path=etc/UnityPackage",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "87335f3ab58ae46c069426206cefedf282fca698"
     },
     "com.unity.modules.ai": {
       "version": "1.0.0",
