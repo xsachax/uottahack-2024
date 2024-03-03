@@ -6,48 +6,80 @@ using UnityEngine.UI;
 
 public class UI_Manager : MonoBehaviour
 {
-   
-    private int _roomNumber;
+
+    [SerializeField] private GameManager _gameManager;
+    private string _name;
+    private string _ip;
     
-    [SerializeField] private TextMeshProUGUI _roomNumberText;
+    [SerializeField] private TextMeshProUGUI _nameText;
+    
+    [SerializeField] private TextMeshProUGUI _ipText;
 
-    private int lastInputNumber;
-
-    [SerializeField] private GameObject _keyboard;
+    [SerializeField] private List<GameObject> _pages;
+    
+    public void Awake()
+    {
+        GoToPage(0);
+    }
+    
+    public void GoToPage(int index)
+    {
+        for (int i = 0; i < _pages.Count; i++)
+        {
+            if (i == index)
+            {
+                _pages[i].SetActive(true);
+            }
+            else
+            {
+                _pages[i].SetActive(false);
+            }
+        }
+    }
+    
+    public void typeLetter(string letter)
+    {
+        
+        _name += letter;
+        _nameText.text = _name;
+    }
+    
+    public void backSpaceLetter()
+    {
+        _name = _name.Substring(0, _name.Length - 1);
+        _nameText.text = _name;
+    }
+    
+    public void typeIP(string ip)
+    {
+        _ip += ip;
+        _ipText.text = _ip;
+    }
+    
+    public void backSpaceIP()
+    {
+        _ip = _ip.Substring(0, _ip.Length - 1);
+        _ipText.text = _ip;
+    }
     
     public void onCreateRoomClick()
     {
         Debug.Log("Create Room Clicked");
-    }
-   
-    public void onNumberClick(int number)
-    {
-        if (_roomNumber > 999999)
-        {
-            return;
-        }
-        
-        _roomNumber = _roomNumber * 10 + number;
-        lastInputNumber = number;
-        _roomNumberText.text = _roomNumber.ToString();
-    }
-    
-    public void onBackspaceClick()
-    {
-        //remove last digit and set text
-        _roomNumber = _roomNumber / 10;
-        _roomNumberText.text = _roomNumber.ToString();
-        
+        _gameManager.StartAsHost(_name, _ip);
+        GoToPage(2);
     }
    
     public void onJoinRoomClick()
     {
-        Debug.Log("Join Room Clicked with room number: " + _roomNumber);
-      
+        Debug.Log("Join Room Clicked");
+        _gameManager.GetComponent<GameManager>().JoinAsClient(_name, _ip);
+        GoToPage(2);
+    }
+
+    public void onExitClick()
+    {
+        GoToPage(0);
+        _gameManager.ResetGame();
     }
     
-    public void onInputFocus()
-    {
-        _keyboard.SetActive(true);
-    }
 }
