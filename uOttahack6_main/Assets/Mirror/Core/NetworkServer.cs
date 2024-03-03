@@ -106,7 +106,7 @@ namespace Mirror
             if (!dontListen)
             {
                 Transport.active.ServerStart();
-                //Debug.Log("Server started listening");
+                // Debug.Log("Server started listening");
             }
 
             active = true;

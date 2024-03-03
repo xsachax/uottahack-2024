@@ -25,6 +25,8 @@ public class VRCanvasHUD : MonoBehaviour
 
     private void Start()
     {
+        NetworkManager.singleton.networkAddress = "192.168.117.44";
+        
         //Make sure to attach these Buttons in the Inspector
         buttonHost.onClick.AddListener(ButtonHost);
         buttonServer.onClick.AddListener(ButtonServer);
@@ -100,7 +102,6 @@ public class VRCanvasHUD : MonoBehaviour
        // NetworkManager.singleton.onlineScene = SceneManager.GetActiveScene().name;
         NetworkManager.singleton.StartServer();
         networkDiscovery.AdvertiseServer();
-
     }
 
     public void ButtonClient()

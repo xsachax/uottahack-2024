@@ -81,7 +81,7 @@ namespace Mirror
         /// <summary>Server's address for clients to connect to.</summary>
         [FormerlySerializedAs("m_NetworkAddress")]
         [Tooltip("Network Address where the client should connect to the server. Server does not use this for anything.")]
-        public string networkAddress = "localhost";
+        public string networkAddress = "192.168.117.43";
 
         /// <summary>The maximum number of concurrent network connections to support.</summary>
         [FormerlySerializedAs("m_MaxConnections")]
@@ -285,6 +285,8 @@ namespace Mirror
 
             // this must be after Listen(), since that registers the default message handlers
             RegisterServerMessages();
+            
+            Debug.Log("REGISTERED SERVER MESSAGES");
 
             // do not call OnStartServer here yet.
             // this is up to the caller. different for server-only vs. host mode.
@@ -460,6 +462,8 @@ namespace Mirror
             {
                 FinishStartHost();
             }
+
+            Debug.Log("STARTED HOST");
         }
 
         // This may be set true in StartHost and is evaluated in FinishStartHost
