@@ -9,3 +9,5 @@ I
 AudioStuff/AudioRecord.cs,a\3\a3ede60475b429fcd5f8598ae631c85a546ac5ed
 =
 Management.cs,5\7\57e0c8ef82841b33edfa841db925699bd99e7483
+A
+ChatBotManager.cs,3\4\3440e6e6dbbd7acecc0f980eb386ac449352c22a
