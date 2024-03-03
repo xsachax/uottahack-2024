@@ -5,104 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0cc7aede-585d-4dc0-af82-c0ef24523709" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/AutoHand/Examples/Scenes/Oculus Integration.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/AutoHand/Examples/Scenes/Oculus Integration/Prefabs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/AutoHand/Examples/Scenes/Oculus Integration/Prefabs/ClassicHand (L) (OVR).prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/AutoHand/Examples/Scenes/Oculus Integration/Prefabs/ClassicHand (L) (OVR).prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/AutoHand/Examples/Scenes/Oculus Integration/Prefabs/ClassicHand (R) (OVR).prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/AutoHand/Examples/Scenes/Oculus Integration/Prefabs/ClassicHand (R) (OVR).prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/AutoHand/Examples/Scenes/Oculus Integration/Prefabs/RobotHand (L) (OVR).prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/AutoHand/Examples/Scenes/Oculus Integration/Prefabs/RobotHand (L) (OVR).prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/AutoHand/Examples/Scenes/Oculus Integration/Prefabs/RobotHand (R) (OVR).prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/AutoHand/Examples/Scenes/Oculus Integration/Prefabs/RobotHand (R) (OVR).prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/AutoHand/Examples/Scenes/Oculus Integration/Scripts.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/AutoHand/Examples/Scenes/Oculus Integration/Scripts/Editor.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/AutoHand/Examples/Scenes/Oculus Integration/Scripts/Editor/OVRAutoHandAxisFingerBenderEditor.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/AutoHand/Examples/Scenes/Oculus Integration/Scripts/Editor/OVRAutoHandFingerBenderEditor.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/AutoHand/Examples/Scenes/Oculus Integration/Scripts/Editor/OVRAutoHandFingerBenderEditor.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/AutoHand/Examples/Scenes/Oculus Integration/Scripts/OVRAutoHandAxisFingerBender.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/AutoHand/Examples/Scenes/Oculus Integration/Scripts/OVRAutoHandAxisFingerBender.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/AutoHand/Examples/Scenes/Oculus Integration/Scripts/OVRAutoHandFingerBender.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/AutoHand/Examples/Scenes/Oculus Integration/Scripts/OVRAutoHandFingerBender.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/AutoHand/Examples/Scenes/Oculus Integration/Scripts/OVRAutoHandTracker.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/AutoHand/Examples/Scenes/Oculus Integration/Scripts/OVRAutoHandTracker.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/AutoHand/Examples/Scenes/Oculus Integration/Scripts/OVRAutoHandTrackerEvent.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/AutoHand/Examples/Scenes/Oculus Integration/Scripts/OVRAutoHandTrackerEvent.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/AutoHand/Examples/Scenes/Oculus Integration/Scripts/OVRControllerEvent.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/AutoHand/Examples/Scenes/Oculus Integration/Scripts/OVRControllerEvent.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/AutoHand/Examples/Scenes/Oculus Integration/Scripts/OVRHandControllerLink.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/AutoHand/Examples/Scenes/Oculus Integration/Scripts/OVRHandControllerLink.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/AutoHand/Examples/Scenes/Oculus Integration/Scripts/OVRHandControllerSwapper.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/AutoHand/Examples/Scenes/Oculus Integration/Scripts/OVRHandControllerSwapper.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/AutoHand/Examples/Scenes/Oculus Integration/Scripts/OVRHandPlayerControllerLink.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/AutoHand/Examples/Scenes/Oculus Integration/Scripts/OVRHandPlayerControllerLink.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/AutoHand/Examples/Scenes/Oculus Integration/Scripts/OVRMover.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/AutoHand/Examples/Scenes/Oculus Integration/Scripts/OVRMover.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/AutoHand/Examples/Scenes/Oculus Integration/Scripts/OVRPlayerHandTrackerLink.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/AutoHand/Examples/Scenes/Oculus Integration/Scripts/OVRPlayerHandTrackerLink.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/AutoHand/Examples/Scenes/Oculus Integration/Scripts/OVRTeleporterLink.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/AutoHand/Examples/Scenes/Oculus Integration/Scripts/OVRTeleporterLink.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Blink.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Blink/Art.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Blink/Art/Characters.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Blink/Art/Characters/LowPoly.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Blink/Art/Characters/LowPoly/Editor.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Blink/Art/Characters/LowPoly/Editor/MaterialTilingOffset.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Blink/Art/Characters/LowPoly/Editor/MaterialTilingOffset.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Auto Hand Player Container.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Auto Hand Player Container.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Unity UI Canvas.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Unity UI Canvas.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/.idea/.idea.Scripts.dir/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/.idea/.idea.Scripts.dir/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/.idea/.idea.Scripts.dir/.idea/sonarlint/issuestore/5/7/57e0c8ef82841b33edfa841db925699bd99e7483" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/.idea/.idea.Scripts.dir/.idea/sonarlint/issuestore/a/3/a3ede60475b429fcd5f8598ae631c85a546ac5ed" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/.idea/.idea.Scripts.dir/.idea/sonarlint/issuestore/b/a/ba3216fd8807c05f23f8a9f3e824f67653bad30c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/.idea/.idea.Scripts.dir/.idea/sonarlint/issuestore/c/a/caaed996be30067a7fb4379e802bf6e27d5347ab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/.idea/.idea.Scripts.dir/.idea/sonarlint/issuestore/c/b/cbddb6e305a74f37931db1451ed914ba4deffcbd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/.idea/.idea.Scripts.dir/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/.idea/.idea.Scripts.dir/.idea/sonarlint/securityhotspotstore/5/7/57e0c8ef82841b33edfa841db925699bd99e7483" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/.idea/.idea.Scripts.dir/.idea/sonarlint/securityhotspotstore/a/3/a3ede60475b429fcd5f8598ae631c85a546ac5ed" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/.idea/.idea.Scripts.dir/.idea/sonarlint/securityhotspotstore/b/a/ba3216fd8807c05f23f8a9f3e824f67653bad30c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/.idea/.idea.Scripts.dir/.idea/sonarlint/securityhotspotstore/c/a/caaed996be30067a7fb4379e802bf6e27d5347ab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/.idea/.idea.Scripts.dir/.idea/sonarlint/securityhotspotstore/c/b/cbddb6e305a74f37931db1451ed914ba4deffcbd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/.idea/.idea.Scripts.dir/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/.idea/.idea.Scripts.dir/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/AudioStuff.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI_Manager.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI_Manager.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AutoHand/Examples/Materials/Hands/HumanHand.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AutoHand/Examples/Materials/Hands/HumanHand.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AutoHand/Examples/Materials/Hands/RobotHand.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AutoHand/Examples/Materials/Hands/RobotHand.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AutoHand/Examples/Materials/Hands/RobotHandProjection.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AutoHand/Examples/Materials/Hands/RobotHandProjection.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AutoHand/Examples/Materials/Hands/robot_Roughness.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AutoHand/Examples/Materials/Hands/robot_Roughness.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AutoHand/Examples/Materials/Pointer Colors/AHPointer 2.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AutoHand/Examples/Materials/Pointer Colors/AHPointer 2.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/AndroidManifest.xml.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/AndroidManifest.xml.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/OculusPlayer.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AutoHand/Examples/Scenes/Oculus Integration/Prefabs/OculusPlayer.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/OculusPlayer.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AutoHand/Examples/Scenes/Oculus Integration/Prefabs/OculusPlayer.prefab.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/MetaXRAudioSettings.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/MetaXRAudioSettings.asset.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Samples.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Lobby.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Lobby.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AutoHand/Examples/Scenes/Oculus Integration/Scripts/Editor/OVRAutoHandAxisFingerBenderEditor.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF.asset.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/XR.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/XR.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/XR/Loaders.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/XR/Loaders.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/XR/Loaders/OculusLoader.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/XR/Loaders/OculusLoader.asset.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/XR/Settings.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/XR/Settings.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/XR/Settings/OculusSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/XR/Settings/OculusSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/XR/Settings/OculusSettings.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/XR/Settings/OculusSettings.asset.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/XR/XRGeneralSettingsPerBuildTarget.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/XR/XRGeneralSettingsPerBuildTarget.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/XR/XRGeneralSettingsPerBuildTarget.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/XR/XRGeneralSettingsPerBuildTarget.asset.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.uOttahack6_main/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.uOttahack6_main/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.uOttahack6_main/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.uOttahack6_main/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.uOttahack6_main/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.uOttahack6_main/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ShaderGraphSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ShaderGraphSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/URPProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/URPProjectSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,10 +20,13 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 8
-}]]></component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Juan/Whiteboard Stuff/WBMarker.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2d9Mf1uTM6JaluUzir2WCeiVnXJ" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -123,9 +34,10 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Attach to Unity Editor.Attach to Unity Editor.executor": "Debug",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "Merging main",
+    "git-widget-placeholder": "main",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -168,10 +80,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="29456">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" />
+      <option name="pid" value="29456" />
       <option name="projectPathOnTarget" />
       <option name="selectedOptions">
         <list />
@@ -188,6 +100,7 @@
       <option name="presentableId" value="Default" />
       <updated>1709415953537</updated>
       <workItem from="1709415956607" duration="3617000" />
+      <workItem from="1709448692765" duration="4989000" />
     </task>
     <servers />
   </component>
@@ -198,5 +111,24 @@
   <component name="UnityUnitTestConfiguration" currentTestLauncher="Both" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Scripts/Juan/Whiteboard Stuff/WBMarker.cs</url>
+          <line>46</line>
+          <properties documentPath="C:\Users\jhied012\projects\uoh\uottahack-2024\uOttahack6_main\Assets\Scripts\Juan\Whiteboard Stuff\WBMarker.cs" initialLine="41" containingFunctionPresentation="Method 'Draw'">
+            <startOffsets>
+              <option value="1332" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1399" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

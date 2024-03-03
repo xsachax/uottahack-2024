@@ -1,0 +1,6 @@
+
+Dcsharpsquid:S3903"'Move 'WBMarker' into a named namespace.(á¶åÉ
+mcsharpsquid:S1104"DMake this field 'private' and encapsulate it in a 'public' property.(ê§±×ùÿÿÿÿ8ò¸¹›à1
+csharpsquid:S1450"XRemove the field '_renderer' and declare it as a local variable in the relevant methods.(¥éâ­şÿÿÿÿ8ÎÚü˜à1
+|csharpsquid:S1450"XRemove the field '_touchPos' and declare it as a local variable in the relevant methods.(ÑÊ™8¢ÕŠšà1
+Bcsharpsquid:S125'"Remove this commented out code.(Áé°€8ê˜‡›à1
