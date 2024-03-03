@@ -13,11 +13,17 @@ public class GameManager : MonoBehaviour
     readonly Dictionary<long, ServerResponse> discoveredServers = new Dictionary<long, ServerResponse>();
     public VRNetworkDiscovery networkDiscovery;
 
+    [SerializeField] private GameObject _lobbyAnchor;
+    [SerializeField] private GameObject _classRoomAnchor;
+
+    [SerializeField] private GameObject _player;
+
     private void Start()
     {
         //NetworkManager.singleton.networkAddress = "192.168.117.44";
         if (networkDiscovery == null)
         { networkDiscovery = GameObject.FindObjectOfType<VRNetworkDiscovery>(); }
+        _player.transform.position = _lobbyAnchor.transform.position;
     }
     void Connect(ServerResponse info)
     {
@@ -37,6 +43,7 @@ public class GameManager : MonoBehaviour
         discoveredServers.Clear();
         NetworkManager.singleton.StartHost();
         networkDiscovery.AdvertiseServer();
+        _player.transform.position = _classRoomAnchor.transform.position;
     }
 
     public void JoinAsClient(string name, string ip)
@@ -45,6 +52,7 @@ public class GameManager : MonoBehaviour
         NetworkManager.singleton.networkAddress = ip;
         discoveredServers.Clear();
         networkDiscovery.StartDiscovery();
+        _player.transform.position = _classRoomAnchor.transform.position;
     }
 
     public void StopServer()
@@ -65,13 +73,15 @@ public class GameManager : MonoBehaviour
             NetworkManager.singleton.StopServer();
         }
         networkDiscovery.StopDiscovery();
+        
+        
 
     }
     
     public void ResetGame()
     {
         StopServer();
-        // turn off scene stuff
+        _player.transform.position = _lobbyAnchor.transform.position;
     }
 }
 
