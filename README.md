@@ -34,10 +34,10 @@ VRoom includes the following key features:
 ## Technologies Used
 
 VRoom is built using a combination of cutting-edge technologies:
-- **[Solace PubSub+](https://solace.com/products/platform/)**: For real-time communication and data exchange.
-- **[]()**:
-- **[]()**:
-- **[]()**: Utilized for room management, data storage, and hosting.
+- **[Unity VR](https://unity.com/solutions/vr)**: A cross-platform game engine used as the platform for virtual reality development.
+- **[C#](https://en.wikipedia.org/wiki/C_Sharp_(programming_language))**: A flexible, object-oriented general purpose programming language ideal for virtual reality development.
+- **[Mirror Networking](https://mirror-networking.com/)**: An open-source netoworking extension for Unity, used for room connections.
+- **[OpenAI](https://openai.com/blog/openai-api)**: Used for quering a GPT model for responses.
 
 ## Benefits
 
@@ -49,7 +49,7 @@ VRoom is built using a combination of cutting-edge technologies:
 ## Team
 
 VRoom is developed by a dedicated team of innovators and technologists passionate about leveraging VR to transform remote collaboration and learning:
-- **Juan Hiedra Primera** - Project Lead & VR Developer
-- **Sacha Arsenault** - VR Developer
-- **Ryan Awad** - Cloud Backend Developer
-- **Mumtahin Farabi** - ??
+- **Juan Hiedra Primera**
+- **Sacha Arsenault**
+- **Ryan Awad**
+- **Mumtahin Farabi**
