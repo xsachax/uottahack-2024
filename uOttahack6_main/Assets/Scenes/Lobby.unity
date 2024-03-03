@@ -454,6 +454,23 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RaycastTriggerInteraction: 1
+--- !u!114 &84444204
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 84444192}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b91ecbcc199f4492b9a91e820070131, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneId: 1316981885
+  _assetId: 1841241412
+  serverOnly: 0
+  visible: 0
+  hasSpawned: 0
 --- !u!1 &96419925
 GameObject:
   m_ObjectHideFlags: 0
@@ -1353,6 +1370,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 84444198}
+    - targetCorrespondingSourceObject: {fileID: 8601698593842230175, guid: 40370d6639fc2044695e5f63b777936e,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 84444204}
   m_SourcePrefab: {fileID: 100100000, guid: 40370d6639fc2044695e5f63b777936e, type: 3}
 --- !u!1 &201844991
 GameObject:
@@ -8008,6 +8029,29 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1219619804}
   m_CullTransparentMesh: 1
+--- !u!1 &1226533191 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3805826570128537047, guid: d835337b946c2314db77ffb18d2b3301,
+    type: 3}
+  m_PrefabInstance: {fileID: 1865153379}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1226533193
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1226533191}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b91ecbcc199f4492b9a91e820070131, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneId: 4094624986
+  _assetId: 1273887553
+  serverOnly: 0
+  visible: 0
+  hasSpawned: 0
 --- !u!1 &1228252418
 GameObject:
   m_ObjectHideFlags: 0
@@ -8094,6 +8138,7 @@ GameObject:
   - component: {fileID: 1230149048}
   - component: {fileID: 1230149047}
   - component: {fileID: 1230149046}
+  - component: {fileID: 1230149049}
   m_Layer: 0
   m_Name: ChatBot
   m_TagString: Untagged
@@ -8146,6 +8191,23 @@ Transform:
   - {fileID: 1063876837}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!114 &1230149049
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1230149045}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b91ecbcc199f4492b9a91e820070131, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneId: 835124298
+  _assetId: 0
+  serverOnly: 0
+  visible: 0
+  hasSpawned: 0
 --- !u!1 &1235701726
 GameObject:
   m_ObjectHideFlags: 0
@@ -13660,6 +13722,10 @@ PrefabInstance:
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3805826570128537047, guid: d835337b946c2314db77ffb18d2b3301,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1226533193}
     - targetCorrespondingSourceObject: {fileID: 1391711605695396452, guid: d835337b946c2314db77ffb18d2b3301,
         type: 3}
       insertIndex: -1
