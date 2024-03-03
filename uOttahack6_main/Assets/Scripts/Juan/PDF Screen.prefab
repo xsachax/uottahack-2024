@@ -123,7 +123,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 3974224411239616630}
         m_TargetAssemblyTypeName: PDFConverterHelper, Assembly-CSharp
-        m_MethodName: ConvertToImages
+        m_MethodName: ImportPDF
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -865,6 +865,7 @@ MonoBehaviour:
   images: []
   sprites: []
   imageObject: {fileID: 3637571997036075736}
+  importingOverlay: {fileID: 0}
 --- !u!1 &8995362499575856215
 GameObject:
   m_ObjectHideFlags: 0

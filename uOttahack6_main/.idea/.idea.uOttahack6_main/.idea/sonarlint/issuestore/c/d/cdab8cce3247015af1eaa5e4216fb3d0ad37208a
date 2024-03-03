@@ -1,10 +1,9 @@
 
-Šcsharpsquid:S101
-"iRename class 'PDFConverterHelper' to match pascal case naming rules, consider using 'PdfConverterHelper'.(¯Ú–øÿÿÿÿ
-^csharpsquid:S1854V":Remove this useless assignment to local variable 'height'.(ñîò”8Şİ·Šà1
-bcsharpsquid:S1854U"9Remove this useless assignment to local variable 'width'.(õ®Ç§ÿÿÿÿÿ8Şİ·Šà1
-Scsharpsquid:S3903
-"1Move 'PDFConverterHelper' into a named namespace.(¯Ú–øÿÿÿÿ
-hcsharpsquid:S1104"DMake this field 'private' and encapsulate it in a 'public' property.(Ëª®á8‡·™‰à1
-mcsharpsquid:S1104"DMake this field 'private' and encapsulate it in a 'public' property.(»âÈ³ıÿÿÿÿ8¨ÃÇ‰à1
-hcsharpsquid:S1104"DMake this field 'private' and encapsulate it in a 'public' property.(Ò‹áÕ8†Å‰à1
+Šcsharpsquid:S101"iRename class 'PDFConverterHelper' to match pascal case naming rules, consider using 'PdfConverterHelper'.(¯Ú–øÿÿÿÿ
+^csharpsquid:S1854q":Remove this useless assignment to local variable 'height'.(ñîò”8ÌòµŸà1
+bcsharpsquid:S1854p"9Remove this useless assignment to local variable 'width'.(õ®Ç§ÿÿÿÿÿ8ÌòµŸà1
+Scsharpsquid:S3903"1Move 'PDFConverterHelper' into a named namespace.(¯Ú–øÿÿÿÿ
+hcsharpsquid:S1104"DMake this field 'private' and encapsulate it in a 'public' property.(Ëª®á8‡·™‰à1
+mcsharpsquid:S1104"DMake this field 'private' and encapsulate it in a 'public' property.(»âÈ³ıÿÿÿÿ8¨ÃÇ‰à1
+hcsharpsquid:S1104"DMake this field 'private' and encapsulate it in a 'public' property.(Ò‹áÕ8†Å‰à1
+hcsharpsquid:S1104"DMake this field 'private' and encapsulate it in a 'public' property.(ú½›8Ä²Èà1

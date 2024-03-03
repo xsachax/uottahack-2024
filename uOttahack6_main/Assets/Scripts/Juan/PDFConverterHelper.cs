@@ -1,10 +1,15 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Threading;
+using System.Threading.Tasks;
 using UnityEngine;
 using PDFtoImage;
 using SkiaSharp;
+using TMPro;
+using Unity.Jobs;
 using UnityEngine.UI;
 
 public class PDFConverterHelper : MonoBehaviour
@@ -16,6 +21,11 @@ public class PDFConverterHelper : MonoBehaviour
     public Image imageObject;
     
     float raw_aspect_ratio;
+    bool finishedImporting = true;
+
+    public GameObject importingOverlay; 
+    
+    TMP_Text importingText;
     
     void Start()
     {
@@ -23,11 +33,24 @@ public class PDFConverterHelper : MonoBehaviour
         sprites = new List<Sprite>();
         
         raw_aspect_ratio = imageObject.rectTransform.sizeDelta.x / imageObject.rectTransform.sizeDelta.y;
+        
+        importingText = importingOverlay.GetComponentInChildren<TMP_Text>();
+    }
+
+    private void Update()
+    {
+        importingOverlay.SetActive(!finishedImporting);
     }
     
-    public void ConvertToImages()
+    public void ImportPDF()
     {
-        string pdfPath = "Assets/Resources/Files/University of Ottawa_Kelpie Robotics_Technical Documentation.pdf";
+        StartCoroutine(ConvertToImages());
+    }
+    
+    IEnumerator ConvertToImages()
+    {
+        finishedImporting = false;
+        string pdfPath = "Assets/Resources/Files/VRoom Pitch Deck.pdf";
         
         // convert PDF to base64 string
         var pdfBytes = File.ReadAllBytes(pdfPath);
@@ -36,7 +59,9 @@ public class PDFConverterHelper : MonoBehaviour
         var images_skbmp = PDFtoImage.Conversion.ToImages(
             base64,
             null
-            ).ToList();
+        ).ToList();
+        
+        int i = 0;
         
         // convert Skia Bitmaps to Unity Textures
         using (MemoryStream memStream = new MemoryStream())
@@ -44,19 +69,21 @@ public class PDFConverterHelper : MonoBehaviour
         {
             foreach (var image in images_skbmp)
             {
-                image.Encode(wstream, SKEncodedImageFormat.Png, 100);
+                image.Encode(wstream, SKEncodedImageFormat.Png, 80);
                 memStream.Position = 0;
                 Texture2D tex = new Texture2D(image.Width, image.Height);
                 tex.LoadImage(memStream.ToArray());
-                images.Add(tex);
-                var sprite = Sprite.Create(tex, new Rect(0, 0, tex.width, tex.height), new Vector2(0.5f, 0.5f));
+                // convert Unity Texture to Unity Sprite
+                Sprite sprite = Sprite.Create(tex, new Rect(0, 0, tex.width, tex.height), new Vector2(0.5f, 0.5f));
+                importingText.text = "Importing " + (i++) + " out of "+ images_skbmp.Count + " images...";
                 sprites.Add(sprite);
+                yield return new WaitForEndOfFrame();
             }
         }
         
         // set the first image to the image object
         SetSprite(0);
-        
+        finishedImporting = true;
     }
     
     public void NextImage()
