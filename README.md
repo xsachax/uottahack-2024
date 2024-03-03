@@ -2,6 +2,14 @@
 
 Submission:
 
+[Devpost Submission](https://devpost.com/software/vroom-op5qij)
+
+[Video demo](https://www.youtube.com/watch?v=_7JwZj7fd3s)
+
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/_7JwZj7fd3s/0.jpg)](https://www.youtube.com/watch?v=_7JwZj7fd3s)
+
+[Slides presentation](https://docs.google.com/presentation/d/1ufitloNmv0YfF7XPOQJTroW52iyw2HyHoFgQzRarTwU/edit?usp=sharing)
+
 ## Table of Contents
 
 - [Project Overview](#project-overview)
